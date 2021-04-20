@@ -38,25 +38,6 @@ public class Pontoon extends CardGame
     public int compareHands(Player hand1, Player hand2)
     {
 
-
-        // card values of less than 16 dealt extra card
-        // need to completely rethink using getBestNumercialHandValue
-//        {while (hand1.getBestNumericalHandValue() < 16)
-//        {
-//            hand1.dealToPlayer(deck.dealRandomCard());
-//            hand1.getNumericalHandValue();
-//            hand1.getBestNumericalHandValue();
-//
-//        }}
-//        {while (hand2.getBestNumericalHandValue() < 16) {
-//            hand2.dealToPlayer(deck.dealRandomCard());
-//            hand2.getNumericalHandValue();
-//            hand2.getBestNumericalHandValue();
-//        }
-//        }
-
-
-
          // compares the values of the getNumeric hand value to return the best hand to the player
         {
 
@@ -153,8 +134,6 @@ public class Pontoon extends CardGame
                 return -1;
              else
                  return +1;
-
-
         }
 
     }

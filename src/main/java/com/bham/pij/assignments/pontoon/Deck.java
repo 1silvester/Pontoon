@@ -8,7 +8,6 @@ import java.util.Random;
 public class Deck
 {
     ArrayList<Card> deckOfCards = new ArrayList<Card>();
-    int numOfCards = 0;
 
     public Deck()
     {
@@ -28,7 +27,6 @@ public class Deck
                     deckOfCards.add(new Card(Card.Suit.values()[i], Card.Value.values()[y]));
                 }
             }
-
     }
 
     public void shuffle()
@@ -61,7 +59,6 @@ public class Deck
         randCard = this.deckOfCards.get(chosenCardIndex);
         this.deckOfCards.remove(chosenCardIndex);
         return randCard;
-
     }
 
     public int size()

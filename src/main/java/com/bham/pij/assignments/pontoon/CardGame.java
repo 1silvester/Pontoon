@@ -13,11 +13,6 @@ public abstract class CardGame
     public CardGame(int nplayers)
     {
         this.nplayers = nplayers;
-//        for(int i = 0; i < nplayers; i++)
-//        {
-//        Player thisPlayer = new Player("Player: " + Integer.parseInt(String.valueOf(i)));
-//        namesListOfPlayer.add(thisPlayer);
-//        }
     }
 
     public abstract void dealInitialCards();

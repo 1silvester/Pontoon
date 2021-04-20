@@ -56,7 +56,6 @@ public class Card {
 
     public void setSuit(Suit suit)
     {
-
         this.suit = suit;
     }
 
@@ -83,7 +82,6 @@ public class Card {
         {
             cardArrayValue.add(i);
         }
-
         return cardArrayValue;
     }
 
